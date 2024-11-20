@@ -1,0 +1,22 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: sa
+  password: 123@qwer
+  host: localhost  # Change this if your MySQL server is hosted elsewhere
+
+development:
+  <<: *default
+  database: chat_system_test
+
+test:
+  <<: *default
+  database: chat_system_test
+
+production:
+  <<: *default
+  database: chat_system_test
+  # You can use environment variables for credentials in production
+  username: <%= ENV['MYSQL_USERNAME'] %>
+  password: <%= ENV['MYSQL_PASSWORD'] %>
