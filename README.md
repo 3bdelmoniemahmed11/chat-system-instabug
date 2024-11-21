@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Where can we find your database schema?
+    A- you can find it in this path chatSystem\app\models
 
-Things you may want to cover:
+* Where can we find each API controller you implemented?
+   A- chatSystem\app\controllers
+  
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
